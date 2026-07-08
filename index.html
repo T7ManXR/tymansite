@@ -1,0 +1,1247 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Tyman's Portfolio Site</title>
+    <!-- Stylesheets -->
+		<link href="CSS/styles.css" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Google Fonts API -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Anta&family=Carter+One&display=swap" rel="stylesheet">
+		<!-- Icon Classes -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+	</head>
+  <body class="d-flex flex-column min-vh-100" data-bs-spy="scroll" data-bs-target=".navbar">
+		<!-- Sticky Top Navigation Bar -->
+		<nav class="navbar navbar-expand-lg sticky-top bg-gold">
+			<div class="d-flex justify-content-between align-items-center container-fluid text-center">
+				<!-- Navbar logo -->
+				<a class="navbar-brand ms-5" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Return to Top" aria-label="logo">
+					<img src="Media/logo.png" alt="Geometric logo" class="rounded-pill">
+				</a>
+				<!-- Navbar title -->
+				<h1 id="title-font" class="mx-5 d-none d-sm-block">Tyman's Portfolio</h1>
+				<!-- Mobile Responsive Side Bar -->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo" 
+				aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- Navbar items -->
+				<div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo">
+					<ul class="navbar-nav nav-underline">
+						<li class="nav-item">
+							<a class="nav-link active" href="#hero">Home</a>
+						</li>
+						<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About
+              </a>
+              <ul class="dropdown-menu bg-danger">
+                <li><a class="dropdown-item text-white" href="#jumbo">Biography</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-white" href="#video">Video</a></li>
+              </ul>
+            </li>
+						<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Gallery
+              </a>
+              <ul class="dropdown-menu bg-danger">
+                <li><a class="dropdown-item text-white" href="#hs">High School</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-white" href="#travel">Travel</a></li>
+								<li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item text-white" href="#demo">Music</a></li>
+              </ul>
+            </li>
+						<li class="nav-item">
+							<a class="nav-link" href="#resume">Resume</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#portfolio">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Main Website Content -->
+		<main class="flex-grow-1">
+			<!-- Section 1: Hero Banner -->
+			<section id="hero" class="container-fluid bg-lime px-5 py-5">
+				<div class="row flex-lg-row-reverse align-items-center py-2">
+					<!-- Hero Image -->
+					<div class="col-10 col-sm-8 col-lg-6">
+						<img src="Media/hero_img.jpg" class="d-block mx-lg-auto mb-5 img-fluid rounded-5 border border-warning border-5" 
+						alt="Hero Photo" width="700" height="500" loading="lazy">
+					</div>
+					<div class="col-lg-5">
+						<!-- Hero Title -->
+						<h1 class="display-1 fw-bold lh-1 mb-5 text-black">Tyman Huang</h1>
+						<!-- Hero Description -->
+						<p class="lead fs-3">Welcome to my professional portfolio! This photo is taken at Hengdian World Studio 
+							(film theme park) in China, where I rented an ancient dynasty costume for photoshoots. Click button below to
+							see my design portfolio!
+						</p>
+						<!-- View Portfolio -->
+						<div class="d-grid gap-2 mx-auto">
+							<a id="special-font" class="btn btn-warning btn-lg" href="#portfolio" data-bs-toggle="tooltip"
+							 data-bs-placement="bottom" data-bs-title="Check out my projects">Enter Portfolio</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Section 2: Jumbotron -->
+			<section id="jumbo" class="container p-5 my-5 rounded-5 jumbo-image border border-warning border-5">
+				<div class="container-fluid py-5">
+					<!-- Biography Title -->
+					<h1 id="title-font" class="display-3 mb-5 fw-bold text-black">A Little About Me</h1>
+					<!-- Biography Description -->
+					<p id="special-font" class="col-md-8 fs-5 mb-5">I am an undergraduate student currently studying media and computer 
+						design majors at the University of Toronto in Mississauga campus. Apart from academics, 
+						I am also an Etsy Store owner which was established in September 2022 and photographer for my family  business.
+						I have extensive graphic design and computer programming experience in my high school and university years, which notably include 
+						3D modelling, python, VR & AR design, and web development. </p>
+					<!-- Link to Personal Online Store -->
+					<a href="https://www.etsy.com/shop/TMStoneStudio" target="_blank">
+						<button id="special-font" class="btn btn-warning btn-lg" type="button" 
+						data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="My Etsy Shop">Explore TMStoneStudio</button>
+					</a>
+				</div>
+			</section> 
+			<!-- Section 3: Local Video -->
+			<section class="container-fluid bg-sky py-5">
+				<div id="video" class="container">
+					<h1 id="title-font" class="display-3 mb-5 fw-bold text-black text-center">YouTube Channel Intro Video</h1>
+					<video class="w-100 border border-warning border-5 rounded-5" controls>
+					<source src="Media/video.mp4" type="video/mp4">
+					</video>
+				</div>
+			</section>
+			<!-- Section 4: Gallery -->
+			<header class="bg-gold fw-bold text-center py-5 display-3">Gallery Overview</header>
+			<section class="bg-lime">
+				<!-- 4.1 2x3 Card Group and Grid System -->
+				<h1 id="title-font" class="text-center pt-5 display-3">High School Years</h1>
+				<div id="hs" class="container album py-5 bg-lime">
+					<div id="special-font" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+						<!-- Card 1 -->
+						<div class="col">
+							<div class="card h-100 shadow-lg">
+								<img class="card-img" src="Media/school5.jpg" alt="country placard">
+								<div class="card-body">
+									<h5 class="card-title">CISSMUN Model United Nations</h5>
+									<p class="card-text">Concordia International Secondary School, Shanghai, China</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-black">January 2020</small>
+								</div>
+							</div>
+						</div>
+						<!-- Card 2 -->
+						<div class="col">
+							<div class="card h-100 shadow-lg">
+								<img class="card-img" src="Media/school4.jpg" alt="white costume">
+								<div class="card-body">
+									<h5 class="card-title">Grade 11 Halloween Party</h5>
+									<p class="card-text">Xiamen International School at Jimei District, Xiamen City, Fujian Province, China</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-black">October 2019</small>
+								</div>
+							</div>
+						</div>
+						<!-- Card 3 -->
+						<div class="col">
+							<div class="card h-100 shadow-lg">
+								<img class="card-img" src="Media/school2.jpg" alt="kayak paddle">
+								<div class="card-body">
+									<h5 class="card-title">Kayak Adventure</h5>
+									<p class="card-text">Mogan Mountain Scenic Resort at Hangzhou City, Zhejiang Province, China</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-black">October 2018</small>
+								</div>
+							</div>
+						</div>
+						<!-- Card 4 -->
+						<div class="col">
+							<div class="card h-100 shadow-lg">
+								<img class="card-img" src="Media/school1.jpg" alt="climbing">
+								<div class="card-body">
+									<h5 class="card-title">Outdoor Climbing</h5>
+									<p class="card-text">Local Campsite at Longtan District, Taoyuan City, Taiwan</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-black">October 2017</small>
+								</div>
+							</div>
+						</div>
+						<!-- Card 5 -->
+						<div class="col">
+							<div class="card h-100 shadow-lg">
+								<img class="card-img" src="Media/school3.jpg" alt="conference card">
+								<div class="card-body">
+									<h5 class="card-title">XIAMUN Model United Nations</h5>
+									<p class="card-text">Xiamen International School at Jimei District, Xiamen City, Fujian Province, China</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-black">November 2018</small>
+								</div>
+							</div>
+						</div>
+						<!-- Card 6 -->
+						<div class="col">
+							<div class="card h-100 shadow-lg">
+								<img class="card-img" src="Media/school6.jpg" alt="boy with TED shirt">
+								<div class="card-body">
+									<h5 class="card-title">TEDx Event Photoshoot</h5>
+									<p class="card-text">Shapowei at Siming District, Xiamen City, Fujian Province, China</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-black">September 2019</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 4.2 3x3 Card Group and Grid System -->
+				<h1 id="title-font" class="text-center display-3">Travel Collection</h1>
+				<div id="travel" class="container album py-5 bg-lime">
+					<div id="special-font" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+						<!-- Card 1 -->
+						<div class="col">
+							<div class="card h-100 shadow-lg">
+								<img class="card-img" src="Media/travel8.jpg" alt="boy in sunglasses wearing blue jacket in front of a chinese-style building">
+								<div class="card-body">
+									<h5 class="card-title">Ancient Chinese Academy Site</h5>
+									<p class="card-text">Ehu Academy at Qianshan County, Shangrao City, Jiangxi Province, China</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-black">May 2024</small>
+								</div>
+							</div>
+						</div>
+						<!-- Card 2 -->
+						<div class="col">
+							<div class="card h-100 shadow-lg">
+								<img class="card-img" src="Media/travel3.jpg" alt="boy in black costume and dynasty background">
+								<div class="card-body">
+									<h5 class="card-title">Ancient Chinese Dynasty Cosplay</h5>
+									<p class="card-text">Qinming River Film Site of Hengdian World Studio at Dongyang City, Zhejiang Province, China</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-black">August 2023</small>
+								</div>
+							</div>
+						</div>
+						<!-- Card 3 -->
+						<div class="col">
+							<div class="card h-100 shadow-lg">
+								<img class="card-img" src="Media/travel5.jpg" alt="queens head yehliu geopark">
+								<div class="card-body">
+									<h5 class="card-title">Grade 11 Chinese New Years Trip</h5>
+									<p class="card-text">Queen's Head of Yehliu Geopark at Wanli District, New Taipei City, Taiwan</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-black">January 2020</small>
+								</div>
+							</div>
+						</div>
+						<!-- Card 4 -->
+						<div class="col">
+							<div class="card h-100 shadow-lg">
+								<img class="card-img" src="Media/travel1.jpg" alt="boy by the sea">
+								<div class="card-body">
+									<h5 class="card-title">Grade 12 Seaside Gathering</h5>
+									<p class="card-text">Golden Sands Gulf Hotel beach at Siming District, Xiamen City, Fujian Province, China</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-black">February 2021</small>
+								</div>
+							</div>
+						</div>
+						<!-- Card 5 -->
+						<div class="col">
+							<div class="card h-100 shadow-lg">
+								<img class="card-img" src="Media/travel2.jpg" alt="boy in graduation gown">
+								<div class="card-body">
+									<h5 class="card-title">High School Graduation Ceremony</h5>
+									<p class="card-text">Xiamen International School at Jimei District, Xiamen City, Fujian Province, China</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-black">May 2021</small>
+								</div>
+							</div>
+						</div>
+						<!-- Card 6 -->
+						<div class="col">
+							<div class="card h-100 shadow-lg">
+								<img class="card-img" src="Media/travel7.jpg" alt="side view of person wearing grey hat and looking outside a tram">
+								<div class="card-body">
+									<h5 class="card-title">Lookout from a Tram</h5>
+									<p class="card-text">Sheung Wan District, Hong Kong Island, Hong Kong SAR</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-black">April 2024</small>
+								</div>
+							</div>
+						</div>
+						<!-- Card 7 -->
+						<div class="col">
+							<div class="card h-100 shadow-lg">
+								<img class="card-img" src="Media/travel9.jpg" alt="backside of body using a professional camera on a seashore with peninsula across the sea">
+								<div class="card-body">
+									<h5 class="card-title">Professional Photography Practice</h5>
+									<p class="card-text">Windmill Island at Xiaozhuo Town, Hui'an County, Quanzhou City, Fujian Province, China</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-black">July 2024</small>
+								</div>
+							</div>
+						</div>
+						<!-- Card 8 -->
+						<div class="col">
+							<div class="card h-100 shadow-lg">
+								<img class="card-img" src="Media/travel4.jpg" alt="boy in military costume by a vintage black car">
+								<div class="card-body">
+									<h5 class="card-title">Republican Era of China Cosplay</h5>
+									<p class="card-text">Canton Street Film Site of Hengdian World Studio at Dongyang City, Zhejiang Province, China</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-black">August 2023</small>
+								</div>
+							</div>
+						</div>
+						<!-- Card 9 -->
+						<div class="col">
+							<div class="card h-100 shadow-lg">
+								<img class="card-img" src="Media/travel6.jpg" alt="boy wearing white cowboy hat and neon raincoat under a mountain">
+								<div class="card-body">
+									<h5 class="card-title">Summer Mountainside Selfie</h5>
+									<p class="card-text">Siguniang Mountain Range at Xiaojin County, Ngawa Tibetan and Qiang Autonomous Prefecture, Sichuan Province, China</p>
+								</div>
+								<div class="card-footer">
+									<small class="text-black">August 2023</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 4.3 Carousel/Slideshow -->
+				<h1 id="title-font" class="text-center display-3">Music Journey</h1>
+				<div id="demo" class="container carousel slide">
+					<!-- Indicators -->
+					<div class="carousel-indicators mb-4">
+						<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+						<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+						<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+						<button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+						<button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+						<button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+					</div>
+					<!-- Carousel Photos and Captions -->
+					<div class="carousel-inner border border-warning border-5 rounded-5">
+						<!-- Carousel Active Class Starting Slideshow -->
+						<div class="carousel-item active">
+							<img src="Media/music1.jpg" alt="Trophies and medals on a wooden desk" class="d-block w-100">
+							<div class="carousel-caption d-none d-sm-block">
+								<h3>Awards and Medals</h3>
+								<p>I had musical awards after every piano recital from 2012 to 2016, where this photo also contains my medals and trophies from baseball tournaments and completing marathons.</p>
+							</div>  
+						</div>
+						<!-- Slideshow 2 -->
+						<div class="carousel-item">
+							<img src="Media/music2.jpg" alt="Kid blowing to a trombone at a living room environment" class="d-block w-100">
+							<div class="carousel-caption d-none d-sm-block">
+								<h3>Trombone in Middle School</h3>
+								<p>I played tromebone in my middle school band from sixth to seventh grade in Vancouver where this photo is taken in my house around 2015.</p>
+							</div>  
+						</div>
+						<!-- Slideshow 3 -->
+						<div class="carousel-item">
+							<img src="Media/music3.jpg" alt="Kid in purple shirt playing ukulele at a musical store" class="d-block w-100">
+							<div class="carousel-caption d-none d-sm-block">
+								<h3>Ukulele Shopping</h3>
+								<p>This photo is taken around 2016 when I visited an instrument store in Vancouver with my mother and tried out an electric ukulele.</p>
+							</div>  
+						</div>
+						<!-- Slideshow 4 -->
+						<div class="carousel-item">
+							<img src="Media/music4.jpg" alt="Person wearing white t-shirt playing a wooden acoustic guitar standing" class="d-block w-100">
+							<div class="carousel-caption d-none d-sm-block">
+								<h3>Acoustic Guitar</h3>
+								<p>This guitar belongs to the homestay house where my upper year residence is and played occasionally over the past two years.</p>
+							</div>  
+						</div>
+						<!-- Slideshow 5 -->
+						<div class="carousel-item">
+							<img src="Media/music5.jpg" alt="Blue guitar and person singing on a microphone while standing" class="d-block w-100">
+							<div class="carousel-caption d-none d-sm-block">
+								<h3>Enya NEXG Bluetooth Guitar</h3>
+								<p>Since the summer of 2023, I played this innovative guitar where the speaker can play music from any bluetooth connected devices while I strum the strings to the tune.</p>
+							</div> 
+						</div>
+						<!-- Slideshow 6 -->
+						<div class="carousel-item">
+							<img src="Media/music6.jpg" alt="Black piano with person playing on a sideview" class="d-block w-100">
+							<div class="carousel-caption d-none d-sm-block">
+								<h3>Grand Piano</h3>
+								<p>I played this piano for ten years since I received it as a birthday present from my father in second grade.</p>
+							</div>
+						</div>
+					</div>
+					<!-- Left and right controls -->
+					<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon bg-warning rounded-5 w-50"></span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+						<span class="carousel-control-next-icon bg-warning rounded-5 w-50"></span>
+					</button>
+				</div>
+			</section>
+			<!-- Section 5: Resume -->
+			<header class="bg-gold fw-bold text-center py-5 display-3">Comprehensive Resume</header>
+			<section id="resume" class="bg-sky py-5">
+				<h1 id="title-font" class="fw-bold text-center pb-5 display-3">Tai Ming (Tyman) Huang</h1>
+				<!-- Contact Information Grid -->
+				<div class="bg-gold container-fluid text-center">
+					<div class="row">
+						<div class="col-md-4 col-sm-3 table-cell"><u data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Phone">+1 (437)-263-4880</u></div>
+						<div class="col-md-4 col-sm-6 table-cell"><u data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Email">tyman.huang@mail.utoronto.ca</u></div>
+						<div class="col-md-4 col-sm-3 table-cell"><u data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Location">Mississauga, Ontario</u></div>
+					</div>
+				</div>
+				<!-- Table 1: Education -->
+				<h1 id="title-font" class="text-center py-3 display-3">Education History</h1>
+				<div class="container table-responsive">
+					<table class="table table-bordered border-warning text-center align-middle">
+						<thead class="table-warning">
+							<tr>
+								<th scope="col">Diploma Or Degree</th>
+								<th scope="col">Grade / CGPA</th>
+								<th scope="col">Institution</th>
+								<th scope="col">Location</th>
+								<th scope="col">Years Active</th>
+							</tr>
+						</thead>
+						<tbody class="table-group-divider">
+							<tr>
+								<td>International Baccalaureate (IB) Diploma Programme</td>
+								<td>IB Final Grade: 35</td>
+								<td>Xiamen International School</td>
+								<td>Xiamen, Fujian, China</td>
+								<td>2016 to 2021</td>
+							</tr>
+							<tr>
+								<td>Honours Bachelor of Arts (In Progress)</td>
+								<td>3.15 (3.3 Expected by Graduation) </td>
+								<td>University of Toronto in Mississauga</td>
+								<td>Mississauga, Ontario, Canada</td>
+								<td>2021 to 2026 (Tentative)</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- Table 2: Work Experience -->
+				<h1 id="title-font" class="text-center py-3 display-3">Work Experience</h1>
+				<div class="container table-responsive">
+					<table class="table table-bordered border-warning text-center align-middle">
+						<thead class="table-warning">
+							<tr>
+								<th scope="col">Job Title</th>
+								<th scope="col">Description</th>
+								<th scope="col">Company</th>
+								<th scope="col">Location</th>
+								<th scope="col">Years Active</th>
+							</tr>
+						</thead>
+						<tbody class="table-group-divider">
+							<tr>
+								<td>Marble Photographer</td>
+								<td>Photographed dozens of stone furniture and gained professional knowledge on the Canon EOS 5D Mark II Digital Camera.</td>
+								<td>Sunshine Stone</td>
+								<td>Quanzhou, Fujian, China</td>
+								<td>June to August 2021</td>
+							</tr>
+							<tr>
+								<td>Etsy Store Owner</td>
+								<td>This shop sells clocks, sinks, tables, and bathtubs in marble, granite, onyx, and other stone materials.</td>
+								<td>TMStoneStudio</td>
+								<td>Remote</td>
+								<td>September 2022 to Present</td>
+							</tr>
+							<tr>
+								<td>Food Server and Cashier </td>
+								<td>Student cafeteria food server and cashier for Ned's Café and Burwash Dining Hall.</td>
+								<td>Victoria University in the University of Toronto</td>
+								<td>Toronto, Ontario, Canada</td>
+								<td>October 2022 to April 2023</td>
+							</tr>
+							<tr>
+								<td>3D Generalist</td>
+								<td>Specializing in the company's stone product 3D design, modeling, rendering with Rhino 3D and Keyshot.</td>
+								<td>OIX Design Inc.</td>
+								<td>Remote</td>
+								<td>May to August 2023</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- Progress Bar Group: All Skillsets -->
+				<!-- Coding -->
+				<h1 id="title-font" class="text-center py-3 display-3">Technical Skillsets</h1>
+				<div id="special-font" class="container text-center">
+					<div class="row">
+						<div class="col-3">
+							<h3 class="labels">Python</h3>
+						</div>
+						<div class="col">
+							<div class="progress" role="progressbar" aria-label="Python Skills" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 2rem;">
+								<div class="progress-bar bg-success w-75">Advanced</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<h3 class="labels">C++</h3>
+						</div>
+						<div class="col">
+							<div class="progress" role="progressbar" aria-label="C++ Skills" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 2rem;">
+								<div class="progress-bar bg-success w-25">Beginner</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<h3 class="labels">HTML & CSS</h3>
+						</div>
+						<div class="col">
+							<div class="progress" role="progressbar" aria-label="Web Skills" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 2rem;">
+								<div class="progress-bar bg-success w-100">Expert</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<h3 class="labels">SQL & Database</h3>
+						</div>
+						<div class="col">
+							<div class="progress" role="progressbar" aria-label="SQL Skills" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 2rem;">
+								<div class="progress-bar bg-success w-50">Intermediate</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<h3 class="labels">Unity</h3>
+						</div>
+						<div class="col">
+							<div class="progress" role="progressbar" aria-label="Web Skills" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 2rem;">
+								<div class="progress-bar bg-success w-100">Expert</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<h3 class="labels">Autodesk Maya</h3>
+						</div>
+						<div class="col">
+							<div class="progress" role="progressbar" aria-label="SQL Skills" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 2rem;">
+								<div class="progress-bar bg-success w-50">Intermediate</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<h3 class="labels">Adobe Creative Cloud</h3>
+						</div>
+						<div class="col">
+							<div class="progress" role="progressbar" aria-label="Python Skills" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 2rem;">
+								<div class="progress-bar bg-success w-75">Advanced</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<h3 class="labels">Javascript</h3>
+						</div>
+						<div class="col">
+							<div class="progress" role="progressbar" aria-label="Web Skills" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 2rem;">
+								<div class="progress-bar bg-success w-100">Expert</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Music -->
+				<h1 id="title-font" class="text-center py-3 display-3">Music Skillsets</h1>
+				<div id="special-font" class="container text-center">
+					<div class="row">
+						<div class="col-3">
+							<h3 class="labels">Piano</h3>
+						</div>
+						<div class="col">
+							<div class="progress" role="progressbar" aria-label="Piano Skills" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 2rem;">
+								<div class="progress-bar bg-success">Expert</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<h3 class="labels">Guitar</h3>
+						</div>
+						<div class="col">
+							<div class="progress" role="progressbar" aria-label="Guitar Skills" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 2rem;">
+								<div class="progress-bar bg-success w-75">Advanced</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<h3 class="labels">Bass</h3>
+						</div>
+						<div class="col">
+							<div class="progress" role="progressbar" aria-label="Bass Skills" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 2rem;">
+								<div class="progress-bar bg-success w-25">Beginner</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<h3 class="labels">Ukulele</h3>
+						</div>
+						<div class="col">
+							<div class="progress" role="progressbar" aria-label="Ukulele Skills" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 2rem;">
+								<div class="progress-bar bg-success w-50">Intermediate</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<h3 class="labels">Singing</h3>
+						</div>
+						<div class="col">
+							<div class="progress" role="progressbar" aria-label="Singing Skills" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 2rem;">
+								<div class="progress-bar bg-success w-75">Advanced</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<h3 class="labels">Trombone</h3>
+						</div>
+						<div class="col">
+							<div class="progress" role="progressbar" aria-label="Trombone Skills" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 2rem;">
+								<div class="progress-bar bg-success w-25">Beginner</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Language -->
+				<h1 id="title-font" class="text-center py-3 display-3">Language Skillsets</h1>
+				<div id="special-font" class="container text-center">
+					<div class="row">
+						<div class="col-3">
+							<h3 class="labels">English</h3>
+						</div>
+						<div class="col">
+							<div class="progress" role="progressbar" aria-label="English Skills" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 2rem;">
+								<div class="progress-bar bg-success w-100">Expert</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<h3 class="labels">Mandarin</h3>
+						</div>
+						<div class="col">
+							<div class="progress" role="progressbar" aria-label="Mandarin Skills" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 2rem;">
+								<div class="progress-bar bg-success w-75">Advanced</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<h3 class="labels">Japanese</h3>
+						</div>
+						<div class="col">
+							<div class="progress" role="progressbar" aria-label="Japanese Skills" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 2rem;">
+								<div class="progress-bar bg-success w-25">Beginner</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<h3 class="labels">French</h3>
+						</div>
+						<div class="col">
+							<div class="progress" role="progressbar" aria-label="French Skills" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 2rem;">
+								<div class="progress-bar bg-success w-50">Intermediate</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Section 6: Portfolio -->
+			<header class="bg-gold fw-bold text-center py-5 display-3">Project Portfolio</header>
+			<section id="portfolio" class="bg-lime py-5">
+				<div id="special-font" class="container portfolio-cont bg-sky rounded-5 overflow-scroll">
+					<!-- Project 1 -->
+					<div class="card flex-lg-row align-items-center rounded-5 shadow-lg my-5">
+						<!-- Content Section -->
+						<div class="card-body ms-md-3">
+							<div class="d-flex justify-content-between align-items-center">
+								<p class="text-primary mb-0 fs-3">March 10, 2021</p>
+								<span class="badge text-bg-warning fs-3">AR Tech</span>
+							</div>
+							<h5 class="card-title fw-bold fs-1 py-3">Augmented Reality in College Learning</h5>
+							<p class="card-text py-3">Augmented Reality (AR) was coined as a vocabulary term in the 1990s. 
+								Over the last 50 years, AR contributed to the advancement of humanity. 
+								In figure 2, Ivan Sutherland's invention of his head-mounted display system in 1968 marked 
+								the first AR technology ever invented (Bridget). "Sword of Damocles" was created to project 
+								computer-generated digital layering graphics. 
+								<a href="https://drive.google.com/file/d/1V0G1BK0BXPEbWrPii8ldUO7bsdXpvrmm/view?usp=sharing" 
+								target="_blank">Read More.</a></p>
+						</div>
+						<!-- Image Section -->
+						<div class="col-lg-4">
+							<img src="Media/blog1.png" class="img-fluid rounded-4 border border-warning border-5 w-100 h-100" style="object-fit: cover;">
+						</div>
+					</div>
+					<!-- Project 2 -->
+					<div class="card flex-lg-row align-items-center rounded-5 shadow-lg my-5">
+						<!-- Content Section -->
+						<div class="card-body ms-md-3">
+							<div class="d-flex justify-content-between align-items-center">
+								<p class="text-primary mb-0 fs-3">March 31, 2021</p>
+								<span class="badge text-bg-warning fs-3">Education</span>
+							</div>
+							<h5 class="card-title fw-bold fs-1 py-3">Decipher the Rubik's Cube</h5>
+							<p class="card-text py-3">For five years, I played with a variety of twisty puzzles and 
+								established my curiosity over time. One combination puzzle that struck my interest the 
+								most is called the “Rubik's Cube.” A Rubik's Cube is a twisty puzzle toy consists of 27 
+								small square blocks (cubelets) composed as a 3x3x3 model in reality.  
+								<a href="https://drive.google.com/file/d/1SGO5iDDk7vRRf0u802RemS7xPr5wdhyT/view?usp=sharing" 
+								target="_blank">Read More.</a></p>
+						</div>
+						<!-- Image Section -->
+						<div class="col-lg-4">
+							<img src="Media/blog2.png" class="img-fluid rounded-4 border border-warning border-5 w-100 h-100" style="object-fit: cover;">
+						</div>
+					</div>
+					<!-- Project 3 -->
+					<div class="card flex-lg-row align-items-center rounded-5 shadow-lg my-5">
+						<!-- Content Section -->
+						<div class="card-body ms-md-3">
+							<div class="d-flex justify-content-between align-items-center">
+								<p class="text-primary mb-0 fs-3">April 9, 2021</p>
+								<span class="badge text-bg-warning fs-3">Science</span>
+							</div>
+							<h5 class="card-title fw-bold fs-1 py-3">Relationship between Water Temperature and 
+								Resonance of a Tibetan Singing Bowl
+							</h5>
+							<p class="card-text py-3">There is a special type of golden bowl that can produce magical sounds and 
+								vibrations when played, which is called the "Tibetan Singing Bowl." A religious tool to incite 
+								relaxation, body wellness, and healing, these bowls originated as early as 3000 B.C and constructed 
+								by Buddhist monks.  
+								<a href="https://drive.google.com/file/d/1nmdFghcY2dyBiUJ8lA7s0rnJyj9LQrEP/view?usp=sharing" 
+								target="_blank">Read More.</a></p>
+						</div>
+						<!-- Image Section -->
+						<div class="col-lg-4">
+							<img src="Media/blog3.png" class="img-fluid rounded-4 border border-warning border-5 w-100 h-100" style="object-fit: cover;">
+						</div>
+					</div>
+					<!-- Project 4 -->
+					<div class="card flex-lg-row align-items-center rounded-5 shadow-lg my-5">
+						<!-- Content Section -->
+						<div class="card-body ms-md-3">
+							<div class="d-flex justify-content-between align-items-center">
+								<p class="text-primary mb-0 fs-3">April 13, 2021</p>
+								<span class="badge text-bg-warning fs-3">Business</span>
+							</div>
+							<h5 class="card-title fw-bold fs-1 py-3">
+								E-commerce Strategies for Sunshine Stone during COVID-19
+							</h5>
+							<p class="card-text py-3">Sunshine Stone is an original manufacturer 
+								that produces a variety of stone bath and sink products. The company 
+								has a few factory buildings to process raw stone planks bought externally 
+								and transform them into household items for sale specialized in international 
+								import and export. Finally, Sunshine Stone hopes to increase long-term 
+								customers through E-commerce strategies.
+								<a href="https://drive.google.com/file/d/1h-c3waKVkoYKI349lGIlH9kYIUFi7BsW/view?usp=sharing" 
+								target="_blank">Read More.</a></p>
+						</div>
+						<!-- Image Section -->
+						<div class="col-lg-4">
+							<img src="Media/blog4.png" class="img-fluid rounded-4 border border-warning border-5 w-100 h-100" style="object-fit: cover;">
+						</div>
+					</div>
+					<!-- Project 5 -->
+					<div class="card flex-lg-row align-items-center rounded-5 shadow-lg my-5">
+						<!-- Content Section -->
+						<div class="card-body ms-md-3">
+							<div class="d-flex justify-content-between align-items-center">
+								<p class="text-primary mb-0 fs-3">December 2, 2021</p>
+								<span class="badge text-bg-warning fs-3">X-Reality</span>
+							</div>
+							<h5 class="card-title fw-bold fs-1 py-3">
+								Positive Reconstruction of Digital Native's Networked Environment
+							</h5>
+							<p class="card-text py-3">This paper will argue how X-Reality technologies and concepts 
+								such as Microsoft HoloLens and the Metaverse can positively reconstruct networked 
+								environments dominated by digital natives through enhanced cognition, excessive 
+								convenience and enticing features. Consequently, these technologies can unconsciously
+								interfere with privacy and cultural diversity, emphasizing that the benefits of such 
+								reconstruction outweigh its interferences. 
+								<a href="https://drive.google.com/file/d/1mEVCiy8xwD0j3IbAHgqIdUBBFJ1t1hg6/view?usp=sharing" 
+								target="_blank">Read More.</a></p>
+						</div>
+						<!-- Image Section -->
+						<div class="col-lg-4">
+							<img src="Media/blog5.png" class="img-fluid rounded-4 border border-warning border-5 w-100 h-100" style="object-fit: cover;">
+						</div>
+					</div>
+					<!-- Project 6 -->
+					<div class="card flex-lg-row align-items-center rounded-5 shadow-lg my-5">
+						<!-- Content Section -->
+						<div class="card-body ms-md-3">
+							<div class="d-flex justify-content-between align-items-center">
+								<p class="text-primary mb-0 fs-3">March 24, 2022</p>
+								<span class="badge text-bg-warning fs-3">Alt Tech</span>
+							</div>
+							<h5 class="card-title fw-bold fs-1 py-3">
+								Social Networking Impacts leading to Data and Physical Privacy Concerns
+							</h5>
+							<p class="card-text py-3">The imminent ubiquity of social networking through Virtual and 
+								Augmented Reality technologies poses privacy risks due to skepticism on how developers 
+								control personal data collection. On the other hand, establishing critical cybersecurity 
+								measures on AR and VR technologies reduce the risk of data privacy breaches for social networking platforms.
+								<a href="https://drive.google.com/file/d/1PHoFYDlcF8AVF-Nk-ed-vdU7Kicrtjf_/view?usp=sharing" 
+								target="_blank">Read More.</a></p>
+						</div>
+						<!-- Image Section -->
+						<div class="col-lg-4">
+							<img src="Media/blog6.png" class="img-fluid rounded-4 border border-warning border-5 w-100 h-100" style="object-fit: cover;">
+						</div>
+					</div>
+					<!-- Project 7 -->
+					<div class="card flex-lg-row align-items-center rounded-5 shadow-lg my-5">
+						<!-- Content Section -->
+						<div class="card-body ms-md-3">
+							<div class="d-flex justify-content-between align-items-center">
+								<p class="text-primary mb-0 fs-3">October 8, 2023</p>
+								<span class="badge text-bg-warning fs-3">Gaming</span>
+							</div>
+							<h5 class="card-title fw-bold fs-1 py-3">
+								Assessment of Educational Video Games in Primary and Secondary Schools
+							</h5>
+							<p class="card-text py-3">The World Health Organization officially identified video game 
+								addiction as a disease prevalent among young people (WHO, 2020). This disease is not 
+								visible immediately, but the effects in the long term will manifest some health 
+								deteriorations. Although video game addiction is prevalent globally due to negative usage 
+								habits, many schools implement educational games that increase language and mathematics 
+								skills, learning enjoyment, and motivation.
+								<a href="https://drive.google.com/file/d/1evPk-d9qngXqaUFJprSZGCSzHQhE6N1T/view?usp=sharing" 
+								target="_blank">Read More.</a></p>
+						</div>
+						<!-- Image Section -->
+						<div class="col-lg-4">
+							<img src="Media/blog7.png" class="img-fluid rounded-4 border border-warning border-5 w-100 h-100" style="object-fit: cover;">
+						</div>
+					</div>
+					<!-- Project 8 -->
+					<div class="card flex-lg-row align-items-center rounded-5 shadow-lg my-5">
+						<!-- Content Section -->
+						<div class="card-body ms-md-3">
+							<div class="d-flex justify-content-between align-items-center">
+								<p class="text-primary mb-0 fs-3">February 12, 2024</p>
+								<span class="badge text-bg-warning fs-3">Coding</span>
+							</div>
+							<h5 class="card-title fw-bold fs-1 py-3">
+								2D ShellShockers with Python and Pygame
+							</h5>
+							<p class="card-text py-3">Classic platformer game made using the pygame library 
+								from Python programming language for CCT211 Fundamentals of User Interface Programming second year course. 
+								The game is inspired by the popular online multiplayer game ShellShockers.io, where players control the egg
+								character and shoot enemy eggs for points. The redevelopment is transformed into a 2D platformer game version
+								where the player can move with WASD and must level up on platforms to avoid enemies and survive.
+								<a href="https://drive.google.com/file/d/1GF5nmgexVaPsgwdxU1UHh4Uz6gWiX1K5/view?usp=sharing" 
+								target="_blank">Read More.</a></p>
+						</div>
+						<!-- Image Section -->
+						<div class="col-lg-4">
+							<img src="Media/blog8.png" class="img-fluid rounded-4 border border-warning border-5 w-100 h-100" style="object-fit: cover;">
+						</div>
+					</div>
+					<!-- Project 9 -->
+					<div class="card flex-lg-row align-items-center rounded-5 shadow-lg my-5">
+						<!-- Content Section -->
+						<div class="card-body ms-md-3">
+							<div class="d-flex justify-content-between align-items-center">
+								<p class="text-primary mb-0 fs-3">February 24, 2024</p>
+								<span class="badge text-bg-warning fs-3">Unity</span>
+							</div>
+							<h5 class="card-title fw-bold fs-1 py-3">
+								Yunwei Villa Adventure Immersive Unity World
+							</h5>
+							<p class="card-text py-3">First person 3D and VR simulated adventure experience made with Unity software.
+								The environment is inspired by many ancient Chinese architectures and gardens, with a modern twist, from
+								the TV show Love is an Accident starring Xing Fei and Xu Kaiping. Since I finished the entire drama series,
+								I tried to accurately map the buildings and possible staging of an ancient Chinese palace into Unity.
+								<a href="https://drive.google.com/file/d/1JYbfIUU6pOxBqSyw1JmjjHxccGtQ1eMh/view?usp=sharing" 
+								target="_blank">Pitch</a> and <a href="https://drive.google.com/file/d/1fdIBlBVki7ON7tCd7krIZXX20o6E7vWT/view?usp=sharing" 
+								target="_blank">Project.</a></p>
+						</div>
+						<!-- Image Section -->
+						<div class="col-lg-4">
+							<img src="Media/blog9.png" class="img-fluid rounded-4 border border-warning border-5 w-100 h-100" style="object-fit: cover;">
+						</div>
+					</div>
+					<!-- Project 10 -->
+					<div class="card flex-lg-row align-items-center rounded-5 shadow-lg my-5">
+						<!-- Content Section -->
+						<div class="card-body ms-md-3">
+							<div class="d-flex justify-content-between align-items-center">
+								<p class="text-primary mb-0 fs-3">July 22, 2024</p>
+								<span class="badge text-bg-warning fs-3">AR Tech</span>
+							</div>
+							<h5 class="card-title fw-bold fs-1 py-3">
+								Mind Puzzl-AR
+							</h5>
+							<p class="card-text py-3">Empower Your mind with Empower Your mind with Augmented Reality Augmented Reality Simulations!
+								 Mind Puzzl-AR is more than just a 2D mobile device educational game. It is an Augmented Reality (AR) gamified educational application that 
+								 simulates popular physical brain-teasing and twisty puzzles. The software application is designed to be compatible with any functional 
+								 camera-capturing machine, with a preference for Apple's iOS and Android devices. Visually, the application will contain the following 
+								 elements: an app icon, many Graphic User Interface (GUI) frames, three 'reality-imitation' puzzles available to play in AR mode, tutorials, 
+								 play mode for each puzzle, and setting pages. The application includes an AR-simulated Rubik's Cube, Kloski, and a Luban Lock puzzle. 
+								 At its core, Puzzl-AR is a tool designed to enhance cognitive skills, reduce stress, improve spatial reasoning, and enrich muscle memory. 
+								<a href="https://drive.google.com/file/d/1mGNMt5a905u0e4KFhDKZ61dViv4hel5i/view?usp=sharing" 
+								target="_blank">Read More.</a></p>
+						</div>
+						<!-- Image Section -->
+						<div class="col-lg-4">
+							<img src="Media/blog10.png" class="img-fluid rounded-4 border border-warning border-5 w-100 h-100" style="object-fit: cover;">
+						</div>
+					</div>
+					<!-- Project 11 -->
+					<div class="card flex-lg-row align-items-center rounded-5 shadow-lg my-5">
+						<!-- Content Section -->
+						<div class="card-body ms-md-3">
+							<div class="d-flex justify-content-between align-items-center">
+								<p class="text-primary mb-0 fs-3">August 4, 2024</p>
+								<span class="badge text-bg-warning fs-3">AR Tech</span>
+							</div>
+							<h5 class="card-title fw-bold fs-1 py-3">
+								Guit-AR-ists Space
+							</h5>
+							<p class="card-text py-3">Overview: By combining Guitar and AR in the software name, the platform's mission 
+							is to foster community-building between those engaged in music (especially guitarists) and technology 
+							(especially in Augmented Reality). The software also goes beyond individual pursuits to achieve two principal 
+							objectives: Socialize about developing futurist guitars with intensive technological support or blend. Discuss 
+							designing and implementing guitar-playing experiences with AR, Virtual Reality (VR), and other types of technological 
+							aid. Guit-AR-ists' Space contains three main pages representing the application's key functionalities. These pages 
+							are accessible through the bottom navigation bar with three buttons.
+								<a href="https://drive.google.com/file/d/1372vw74TJ5Mgs4VP7ikDtK0Yw7T9x2ed/view?usp=sharing" 
+								target="_blank">Read More.</a></p>
+						</div>
+						<!-- Image Section -->
+						<div class="col-lg-4">
+							<img src="Media/blog11.png" class="img-fluid rounded-4 border border-warning border-5 w-100 h-100" style="object-fit: cover;">
+						</div>
+					</div>
+					<!-- Project 12 -->
+					<div class="card flex-lg-row align-items-center rounded-5 shadow-lg my-5">
+						<!-- Content Section -->
+						<div class="card-body ms-md-3">
+							<div class="d-flex justify-content-between align-items-center">
+								<p class="text-primary mb-0 fs-3">October 11, 2024</p>
+								<span class="badge text-bg-warning fs-3">Web Dev</span>
+							</div>
+							<h5 class="card-title fw-bold fs-1 py-3">
+								Tyman's Cube Shop
+							</h5>
+							<p class="card-text py-3">First Bootstrap Project on developing an E-commerce website with HTML5 and CSS about Rubik's Cubes.
+								<a href="http://tymanscubeshop.atspace.cc/" 
+								target="_blank">Website.</a></p>
+						</div>
+						<!-- Image Section -->
+						<div class="col-lg-4">
+							<img src="Media/blog12.png" class="img-fluid rounded-4 border border-warning border-5 w-100 h-100" style="object-fit: cover;">
+						</div>
+					</div>
+					<!-- Project 13 -->
+				  <div class="card flex-lg-row align-items-center rounded-5 shadow-lg my-5">
+						<!-- Content Section -->
+						<div class="card-body ms-md-3">
+							<div class="d-flex justify-content-between align-items-center">
+								<p class="text-primary mb-0 fs-3">March 18, 2025</p>
+								<span class="badge text-bg-warning fs-3">AR Tech</span>
+							</div>
+							<h5 class="card-title fw-bold fs-1 py-3">
+								Augmented Reality Calligraphy
+							</h5>
+							<p class="card-text py-3">AR (Augmented Reality) is an increasingly ubiquitous and popular technical method of representation 
+								where digital elements overlay the real environment. In this artist statement, I will outline the inspiration, process, and 
+								demonstrations behind an innovative calligraphy tool. Firstly, I have been writing Chinese calligraphy since childhood and 
+								produced Fai Chun/Chunlian on my own. These are red paper banners that stick around the main door or entrance of buildings 
+								to wish for good fortune and prosperity as a Chinese New Year tradition. If brush ink calligraphy can be replicated with AR, 
+								then anyone with the source code can draw without purchasing physical writing tools. Using Hooke's Law to simulate brush strokes, 
+								a creative coding blog, is another inspiration source by integrating physics to elevate this experience (Moussa, 2021). 
+								Instead of the mouse cursor, pinch detection from either hand controls the brush strokes, adjusting brush size and on/off toggle. 
+								<a href="http://arcalligraphy.atspace.cc/" 
+								target="_blank">Website.</a></p>
+						</div>
+						<!-- Image Section -->
+						<div class="col-lg-4">
+							<img src="Media/blog13.png" class="img-fluid rounded-4 border border-warning border-5 w-100 h-100" style="object-fit: cover;">
+						</div>
+					</div>
+					<!-- Project 14 -->
+					<div class="card flex-lg-row align-items-center rounded-5 shadow-lg my-5">
+						<!-- Content Section -->
+						<div class="card-body ms-md-3">
+							<div class="d-flex justify-content-between align-items-center">
+								<p class="text-primary mb-0 fs-3">May 31, 2025</p>
+								<span class="badge text-bg-warning fs-3">VR Tech</span>
+							</div>
+							<h5 class="card-title fw-bold fs-1 py-3">
+								Rubik's Cube Showdown VR
+							</h5>
+							<p class="card-text py-3">Rubik's Cube VR Showdown offers an immersive virtual reality through Spatial.io that combines
+							the rhythm, anxiety, and ritual associated with speedcubing to create a dynamic and intense interactive environment.
+							Participants engage in a Rubik's Cube challenge using hand gestures in front of a self-adjusting competition table, 
+							guided by a virtual judge on a stage that resembles an international tournament. The start and end of the game depend 
+							on a virtual sensor pad for physical interaction, a heads-up display (HUD) interface for thorough information feedback,
+							auditory cues to enhance operation confirmation and urgency, and audience participation to provide additional rewarding feedback for the 
+							participants. <a href="https://www.spatial.io/s/CCT386-Rubiks-Cube-VR-Showdown-6838ee375b932dd911ac4fc1?share=250397636505679563" 
+							target="_blank">Website.</a></p>
+						</div>
+						<!-- Image Section -->
+						<div class="col-lg-4">
+							<img src="Media/blog14.png" class="img-fluid rounded-4 border border-warning border-5 w-100 h-100" style="object-fit: cover;">
+						</div>
+					</div>
+					<!-- Project 15 ROP TBD -->
+				</div>
+			</section>
+			<!-- Section 7: Contact -->
+			<header class="bg-gold fw-bold text-center py-5 display-3">Contact Form</header>
+			<section id="contact" class="bg-sky py-5">
+				<!-- Form -->
+				<div class="container">
+					<!-- Form Container -->
+					<form id="contactForm" class="row row-cols-2 g-4" novalidate>
+						<!-- Full Name -->
+						<div class="col">
+							<input type="text" class="form-control form-control-lg" placeholder="Full Name" aria-label="Name" id="fullName" required>
+							<div class="error-message text-danger d-none">Please enter your full name.</div>
+						</div>
+						<!-- Contact Reason -->
+						<div class="col">
+							<select class="form-select form-select-lg" aria-label="Large select example" id="contactReason" required>
+								<option selected disabled value="">Contact Reason</option>
+								<option value="Social Networking">Social Networking</option>
+								<option value="Business Matters">Business Matters</option>
+								<option value="Other Concerns">Other Concerns</option>
+							</select>
+							<div class="error-message text-danger d-none">Please select a reason for contact.</div>
+						</div>
+						<!-- Email -->
+						<div class="col">
+							<input type="email" class="form-control form-control-lg" placeholder="Email" aria-label="Email Address" id="email" required>
+							<div class="error-message text-danger d-none">Please enter a valid email address.</div>
+						</div>
+						<!-- Subject -->
+						<div class="col">
+							<input type="text" class="form-control form-control-lg" placeholder="Subject" aria-label="Email Subject" id="subject" required>
+							<div class="error-message text-danger d-none">Please enter a subject for your message.</div>
+						</div>
+						<!-- Message -->
+						<div class="col-12">
+							<textarea class="form-control form-control-lg" placeholder="Message" id="message" rows="3" required></textarea>
+							<div class="error-message text-danger d-none">Please enter your message.</div>
+						</div>
+					</form>
+					<!-- Button Trigger Modal -->
+					<div class="d-grid gap-2 col-6 py-5 mx-auto">
+						<button class="btn btn-success btn-lg" type="button" data-bs-toggle="modal" 
+							data-bs-target="#staticBackdrop" id="submitButton">
+							Submit Message
+						</button>
+					</div>
+					<!-- Static Backdrop Modal -->
+					<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" 
+						data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h1 class="modal-title fs-5 fw-bold" id="staticBackdropLabel">Form Submitted</h1>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									Thank you for submitting your message! We will respond typically within one to three days,
+									no more than a week.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Social Media Icons -->
+				
+				<div class="container">
+					<h1 id="title-font" class="text-center pb-3 display-3">Social Media Profiles</h1>
+					<div class="row text-center">
+						<div class="col">
+						<a class="btn btn-primary rounded-5 w-100" href="https://www.facebook.com/tman160429" target="_blank"
+						data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Facebook">
+							<i class="bi bi-facebook fs-1"></i>
+						</a>
+					</div>
+					<div class="col">
+						<a class="btn btn-ins rounded-5 w-100" href="https://www.instagram.com/tman160429" target="_blank"
+						data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Instagram">
+							<i class="bi bi-instagram fs-1 text-white"></i>
+						</a>
+					</div>
+					<div class="col">
+						<a class="btn btn-danger rounded-5 w-100" href="https://www.youtube.com/@tman160HTM" target="_blank"
+						data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="YouTube">
+							<i class="bi bi-youtube fs-1"></i>
+						</a>
+					</div>
+					<div class="col">
+						<a class="btn btn-discord rounded-5 w-100" href="https://discord.com/tman160429" target="_blank"
+						data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Discord">
+							<i class="bi bi-discord fs-1 text-white"></i>
+						</a>
+					</div>
+					<div class="col">
+						<a class="btn btn-linkedin rounded-5 w-100" href="https://www.linkedin.com/in/tai-ming-huang-67bb6323b/" target="_blank"
+						data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Linked-In">
+							<i class="bi bi-linkedin fs-1 text-white"></i>
+						</a>
+					</div>
+					<div class="col">
+						<a class="btn btn-dark rounded-5 w-100" href="https://github.com/tytyman5264" target="_blank"
+						data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Github">
+							<i class="bi bi-github fs-1"></i>
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
+    <!-- Footer -->
+		<footer class="py-3 bg-gold">
+			<!-- Navigation Items -->
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3 nav-underline">
+        <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+        <li class="nav-item dropup">
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						About
+					</a>
+					<ul class="dropdown-menu bg-black">
+						<li><a class="dropdown-item" href="#jumbo">Biography</a></li>
+						<li><hr class="dropdown-divider"></li>
+						<li><a class="dropdown-item" href="#video">Video</a></li>
+					</ul>
+				</li>
+				<li class="nav-item dropup">
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Gallery
+					</a>
+					<ul class="dropdown-menu bg-black">
+						<li><a class="dropdown-item" href="#hs">High School</a></li>
+						<li><hr class="dropdown-divider"></li>
+						<li><a class="dropdown-item" href="#travel">Travel</a></li>
+						<li><hr class="dropdown-divider"></li>
+						<li><a class="dropdown-item" href="#demo">Music</a></li>
+					</ul>
+				</li>
+        <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+				<li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+			<!-- Copyright Note -->
+      <p class="copyright">Copyright 2024 &copy; Tyman Huang</p>
+    </footer>
+    <!-- Javascript Links --> 
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+		<script>
+			emailjs.init("A0mivvu8vga5guRDh");
+		</script>
+		<!-- Tooltip Initialization -->
+		<script>
+			// Initialize tooltips
+			var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+			var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+				return new bootstrap.Tooltip(tooltipTriggerEl)
+			})
+		</script>
+		<!-- Javascript Form Submission -->
+		<script>
+			document.getElementById('submitButton').addEventListener('click', function () {
+				const fullName = document.getElementById('fullName').value.trim();
+				const contactReason = document.getElementById('contactReason').value;
+				const email = document.getElementById('email').value.trim();
+				const subject = document.getElementById('subject').value.trim();
+				const message = document.getElementById('message').value.trim();
+				let isValid = true;
+		
+				// Clear previous error messages
+				document.querySelectorAll('.error-message').forEach((error) => {
+					error.classList.add('d-none');
+				});
+		
+				// Validate inputs
+				if (!fullName) {
+					document.getElementById('fullName').nextElementSibling.classList.remove('d-none');
+					isValid = false;
+				}
+				if (!contactReason) {
+					document.getElementById('contactReason').nextElementSibling.classList.remove('d-none');
+					isValid = false;
+				}
+				const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+				if (!emailRegex.test(email)) {
+					document.getElementById('email').nextElementSibling.classList.remove('d-none');
+					isValid = false;
+				}
+				if (!subject) {
+					document.getElementById('subject').nextElementSibling.classList.remove('d-none');
+					isValid = false;
+				}
+				if (!message) {
+					document.getElementById('message').nextElementSibling.classList.remove('d-none');
+					isValid = false;
+				}
+		
+				// If valid, send email
+				if (isValid) {
+					emailjs.send("tman160429", "tman160429template", {
+						fullName: fullName,
+						contactReason: contactReason,
+						email: email,
+						subject: subject,
+						message: message,
+						reply_to: email, // Sends response log back to the user's email
+					}).then(
+						function (response) {
+							console.log("SUCCESS!", response.status, response.text);
+							alert("Message sent successfully!");
+						},
+						function (error) {
+							console.log("FAILED...", error);
+							alert("Failed to send message. Please try again later.");
+						}
+					);
+				}
+			});
+		</script>
+  </body>
+</html>

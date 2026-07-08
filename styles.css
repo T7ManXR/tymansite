@@ -1,0 +1,123 @@
+/* #region Typography, Color */
+#title-font {
+  font-family: "Carter One", sans-serif;
+}
+#special-font {
+  font-family: "Anta", sans-serif;
+}
+.bg-lime {
+  background-color: #acf9b3;
+}
+.bg-sky {
+  background-color: #00ffff;
+}
+.bg-gold {
+  background-color: gold;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* #endregion */
+
+/* #region Navigation Bar */
+.nav-link {
+  color: black !important;
+}
+.rounded-pill {
+  width: 50px;
+  outline: black solid 5px;
+}
+.dropdown-item:hover {
+  color: white; /* Change text color on hover */
+  background-color: black !important; /* Ensure background color changes */
+}
+/* #endregion */
+
+/* #region Jumbotron */
+.jumbo-image {
+  color: white;
+  background-image: url(../Media/jumbotron.jpg);
+  background-size: cover;
+  min-height: auto;
+}
+.col-md-8 {
+  background-color: #0a0a0a4d;
+  padding: 20px;
+  border-radius: 25px;
+}
+/* #endregion */
+
+/* #region Carousel */
+.carousel {
+  border: #acf9b3 solid 20px;
+}
+.carousel-caption {
+  background-color: black;
+  opacity: 80%;
+  border-radius: 25px;
+  padding: 0 5%;
+  outline: 10px solid black;
+}
+.carousel .carousel-indicators button {
+  height: 10px;
+  border-radius: 15px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  height: 5rem !important;
+  width: 10rem !important;
+}
+/* #endregion */
+
+/* #region Resume */
+.table-cell {
+  background-color: gold;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+table, th, td {
+  border: 5px solid;
+}
+.progress-bar {
+  width: 100%;
+  font-size: 20px;
+  outline: black solid 2px;
+}
+.labels {
+  color: black;
+}
+/* #endregion */
+
+/* #region Portfolio */
+.portfolio-cont {
+  height: 1000px;
+}
+/* #endregion */
+
+/* #region Contact Form */
+.btn-ins {
+  background-color: #d62976 !important;
+}
+.btn-discord {
+  background-color: #7289da !important;
+}
+.btn-linkedin {
+  background-color: #0077b5 !important;
+}
+/* #endregion */
+
+/* #region Footer */
+footer {
+  width: 100%;
+}
+.border-bottom {
+  --bs-border-color: black;
+}
+.copyright {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+/* #endregion */
